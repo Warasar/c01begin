@@ -3,6 +3,16 @@
 ##
 ## Get latest from https://github.com/github/gitignore/blob/master/VisualStudio.gitignore
 
+#latex условий
+_minted-*
+*.synctex.gz
+*.fls
+*.fdb_latexmk
+*.log
+*.aux
+*.xdv
+
+
 # User-specific files
 *.rsuser
 *.suo
@@ -351,3 +361,6 @@ MigrationBackup/
 
 # Ionide (cross platform F# VS Code tools) working folder
 .ionide/
+
+.DS_Store
+thumbs.db
