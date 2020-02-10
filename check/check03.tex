@@ -1,0 +1,85 @@
+%!TEX program = xelatex
+\documentclass{article}
+\usepackage[a5paper,hmargin=8mm,tmargin=10mm,bmargin=10mm]{geometry}
+
+\usepackage{ifxetex}
+\ifxetex
+ \usepackage{fontspec}
+ \setmainfont[Scale=1.1]{Arno Pro}
+ \setmonofont[Scale=.95]{Consolas}
+ \usepackage{unicode-math}              %% пакет для загрузки шрифтов математического режима 
+ \setmathfont{[latinmodern-math.otf]}
+ \setmathfont[range=\mathit/{latin,Latin}]{Arno Pro Italic}
+ \setmathfont[range=up]{Arno Pro}
+\else
+ \usepackage[utf8]{inputenc}
+\fi
+\usepackage[russian]{babel}
+\usepackage{enumitem, minted, graphicx}
+
+\newcommand{\answerbox}[1][1.9cm]{\par\begin{tabular}{|p{.92\textwidth}|}
+ \hline
+ ~\linebreak\vskip#1\mbox{}
+ \\
+ \hline
+\end{tabular}}
+
+\begin{document}
+
+\pagestyle{empty}
+\abovedisplayskip=0pt
+
+\subsection*{1. Простые линейные программы \hfill В3}
+
+Не надо писать \texttt{\#include}, \texttt{\#define} и \texttt{int main()}, \\нужна только ВНУТРЕННОСТЬ функции \texttt{main()}! \\Все данные вводить в том порядке, в каком они появляются в условии.
+
+\begin{enumerate}[left=0pt .. \parindent]
+\item
+Окружность радиуса $R$ поделили на $n$ равных секторов. Выведите площадь одного сектора.
+\\
+\setlength\partopsep{-\topsep}
+\begin{tabular}{|p{.46\textwidth}@{}|@{}p{.46\textwidth}|}
+\hline
+\multicolumn{2}{|c|}{ДОПИШИТЕ ОДИН ИЗ ВАРИАНТОВ:}
+\\
+\hline
+ \begin{minted}{cpp}
+ int R, n;
+ scanf("%d %d", &R, &n);
+ 
+ printf( 
+ \end{minted}
+&
+ \begin{minted}{cpp}
+ int R, n;
+ cin >> R >> n;
+
+ cout << 
+ \end{minted}
+\\
+\hline
+\end{tabular}
+\item
+Ввести радиус $R$ и вывести объем цилиндра радиуса $R$ высотой $R$ и площадь круга радиуса $R$.
+\answerbox
+\item
+Около окружности радиуса $R$ описан квадрат. Выведите \hfill\smash{\raisebox{-2.6em}
+{\includegraphics{pic3.pdf}}}\\
+площадь заштрихованной части.\\[1mm]
+\answerbox
+\item
+Ввести трехзначное натуральное число $N$, вывести произведение первой и третьей цифры.
+\answerbox
+\item
+Ввести действительное число $x$, вывести значение $2x^4+x^3-2x^2-3x-5$, используя не более 4 умножений и не более 4 сложений/вычитаний.
+\answerbox
+\item
+Ввести выражение из трех символов: цифра, знак \texttt{'/'}, цифра. Вывести его значение, подсчитанное как результат деления нацело однозначных чисел. Например, для ввода \texttt{8/3} вывести \texttt{2}.
+\answerbox
+\item
+Ввести целые значения $x_1, y_1, x_2, y_2, x_3, y_3$, --- координаты трех точек параллелограма в порядке обхода по часовой стрелке. Вывести координаты $x_4, y_4$ четвертой вершины. 
+\answerbox[7.4cm]
+\end{enumerate}
+
+\end{document}
+

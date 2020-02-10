@@ -1,0 +1,15 @@
+\documentclass{standalone}
+\usepackage{tikz}
+\begin{document}
+\definecolor{silver}{rgb}{0.75, 0.75, 0.75}
+\begin{tikzpicture}
+\fill[color=white] (-.8,-.8) rectangle (0.8,0.7	);
+\draw(-.7,-.7) rectangle (0.7,0.7);
+\fill[color=silver] (-.7,0) rectangle (0, 0.7);
+\draw[fill=white] (0,0) circle [radius=.7];
+\fill[color=silver] (-.7,-.7) rectangle (0.7,0);
+\draw (0,0) circle [radius=.7];
+
+\end{tikzpicture}
+\end{document}
+
