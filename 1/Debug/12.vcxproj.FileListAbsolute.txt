@@ -1,0 +1,4 @@
+C:\Users\thest\source\repos\12\Debug\12.exe
+C:\Users\thest\source\repos\12\Debug\12.pdb
+C:\Users\thest\Downloads\c01begin-sqrt1337-master1\1\Debug\12.exe
+C:\Users\thest\Downloads\c01begin-sqrt1337-master1\1\Debug\12.pdb

@@ -1,0 +1,3 @@
+﻿  12.cpp
+C:\Users\thest\Downloads\c01begin-sqrt1337-master1\1\12.cpp(9,16): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+  12.vcxproj -> C:\Users\thest\Downloads\c01begin-sqrt1337-master1\1\Debug\12.exe
