@@ -1,0 +1,4 @@
+C:\Users\thest\source\repos\31\Debug\31.exe
+C:\Users\thest\source\repos\31\Debug\31.pdb
+C:\Users\thest\Downloads\lab prog\lab1\3\Debug\31.exe
+C:\Users\thest\Downloads\lab prog\lab1\3\Debug\31.pdb

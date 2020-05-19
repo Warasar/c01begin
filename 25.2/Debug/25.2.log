@@ -1,0 +1,4 @@
+﻿  25.2.cpp
+C:\Users\thest\Downloads\lab prog\lab1\25.2\25.2.cpp(9,8): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+C:\Users\thest\Downloads\lab prog\lab1\25.2\25.2.cpp(10,15): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+  25.2.vcxproj -> C:\Users\thest\Downloads\lab prog\lab1\25.2\Debug\25.2.exe
